@@ -2,7 +2,7 @@
 
 Easy tool to use for counting encounters. Will be made better with new looks and such. But for now enjoy :)
 
-![alt tag](https://i.gyazo.com/98c680b06f00308fbcb6bbda51dcf93b.png)
+![alt tag](https://i.gyazo.com/f60c0d7a1384533ac3c4c7a4d91211c3.png)
 
 <h3>Controls:</h3>
 
