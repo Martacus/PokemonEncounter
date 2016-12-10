@@ -9,7 +9,9 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    static int counter = 0;
+    static int counter = 8997;
+
+    Image counterImage = new Image(getClass().getResourceAsStream("counterball.png"));
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -18,6 +20,9 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader();
         Pane p = fxmlLoader.load(getClass().getResource("encounter.fxml").openStream());
         Controller controller = (Controller) fxmlLoader.getController();
+
+
+
 
         Scene mainScene = new Scene(p);
 
