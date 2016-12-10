@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="239.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="increase" fx:id="increase" layoutX="147.0" layoutY="155.0" mnemonicParsing="false" onMouseClicked="#onMouseIncrease" style="-fx-background-color: #7CFC00;" text="+" />
+      <Button id="decrease" fx:id="decrease" layoutX="191.0" layoutY="155.0" mnemonicParsing="false" onMouseClicked="#onMouseDecrease" style="-fx-background-color: #FF6347;" text="-" />
+      <Button id="reset" fx:id="reset" layoutX="156.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#onMouseReset" style="-fx-background-color: #9932CC;" text="Reset" />
+      <Label id="counter" fx:id="encounter" alignment="CENTER" layoutX="52.0" layoutY="68.0" prefHeight="21.0" prefWidth="265.0" text="0">
+         <font>
+            <Font size="50.0" />
+         </font></Label>
+   </children>
+</Pane>
