@@ -7,3 +7,6 @@ Easy tool to use for counting encounters. Will be made better with new looks and
 ENTER: Count up<br />
 BACK SPACE: Count down<br />
 R: Reset counter<br />
+
+<h3>Download:</h3>
+https://github.com/Martacus/PokemonEncounter/releases
