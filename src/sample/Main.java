@@ -9,9 +9,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    static int counter = 8997;
-
-    Image counterImage = new Image(getClass().getResourceAsStream("counterball.png"));
+    static int counter = 0;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
