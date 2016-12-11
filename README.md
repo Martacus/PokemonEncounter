@@ -12,3 +12,5 @@ R: Reset counter<br />
 
 <h3>Download:</h3>
 https://github.com/Martacus/PokemonEncounter/releases
+
+The program will create a folder in the same directory that holds the data for the encounter. If you just downloaded the app and you are already on encounter 100000 just start the app. Close it and edit the number in the file and start it again. It should now display the right encounter :)
