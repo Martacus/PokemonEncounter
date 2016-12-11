@@ -21,5 +21,10 @@
          <font>
             <Font size="50.0" />
          </font></Label>
+      <Label fx:id="secondsLabel" layoutX="14.0" layoutY="14.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
